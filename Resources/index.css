@@ -1,0 +1,42 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+header {
+    background-color: rgb(61, 61, 228) ;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 15px;
+    color: aliceblue;
+}
+
+main {
+    position: relative;
+}
+
+.test{
+    background-color: blueviolet;
+    background-image: url("/images/Relaxhome.jpg");
+}
+
+main h1 {
+    position: relative;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
